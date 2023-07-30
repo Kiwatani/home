@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "ZenKurenaido";
+    src: url(../Font/ZenKurenaido-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: ZenKurenaido;
+    background-color: #0095c3;
+    overflow-x: hidden;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: auto;
+    height: 70px;
+}
+
+.main
+{
+    background-color: white;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texts
+{
+    margin-left: 20px;
+}
+
+.size
+{
+    font-size: 23px;
+}
+
+.margin
+{
+    width: auto;
+    height: 10px;
+}
+
+.icon
+{
+    margin-top: 9px;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.iconp
+{
+    pointer-events: none;
+    user-select: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_text
+{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+@keyframes hover_anim {
+    0% {color: white;}
+    100% {color: #0095c3;}
+}
+
+.sns
+{
+    color: white;
+    font-size: 30px;
+}
+
+.sns_text
+{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.sns:hover
+{
+    animation: hover_anim 0.4s forwards;
+}
+
+.home
+{
+    color: white;
+    font-size: 30px;
+}
+
+.home_text
+{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.home:hover
+{
+    animation: hover_anim 0.4s forwards;
+}
+
+.links
+{
+    color: black;
+    text-decoration: none;
+}
